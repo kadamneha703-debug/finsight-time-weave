@@ -38,14 +38,14 @@ export function AgentPanel({ inputs }: { inputs: Inputs }) {
             <Brain className="h-4 w-4 text-primary-foreground" />
           </div>
           <div>
-            <h2 className="font-display text-lg font-semibold">FinSight Agent</h2>
+            <h2 className="font-display text-lg font-semibold">FutureFund Agent</h2>
             <div className="flex items-center gap-1.5 text-[11px] text-muted-foreground">
               <span className="ring-dot bg-[oklch(0.78_0.18_150)] animate-pulse" />
               live · reasoning
             </div>
           </div>
         </div>
-        <span className="text-[11px] font-mono text-muted-foreground">model: finsight-v1</span>
+        <span className="text-[11px] font-mono text-muted-foreground">model: futurefund-v1</span>
       </div>
 
       <div className="space-y-3 max-h-[460px] overflow-y-auto pr-1">
