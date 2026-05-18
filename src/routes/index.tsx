@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "FinSight Time Machine — Simulate Your Financial Future" },
+      { title: "Future Fun AI — Simulate Your Financial Future" },
       { name: "description", content: "Agentic AI fintech dashboard that simulates scenarios, stress-tests life shocks, and recommends the optimal path to your goals." },
     ],
   }),
