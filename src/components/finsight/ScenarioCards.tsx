@@ -5,8 +5,7 @@ import { TrendingUp, AlertTriangle, Sparkles } from "lucide-react";
 
 export function ScenarioCards({ inputs }: { inputs: Inputs }) {
   const current = compute(inputs);
-  const risky = compute(inputs, { shopping: 0, foodCut: -30, shoppingCut: -50 } as never);
-  // Risky: increase discretionary spending (negative cuts) — simulate inflation of lifestyle
+  // Risky: lifestyle inflation in discretionary categories
   const riskyAdj = compute({ ...inputs, shopping: inputs.shopping * 1.6, food: inputs.food * 1.25, travel: inputs.travel * 1.4 });
   const optimized = compute(inputs, { foodCut: 20, shoppingCut: 40 });
 
