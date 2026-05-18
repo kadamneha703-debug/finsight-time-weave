@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "FinSight Time Machine — Simulate Your Financial Future" },
+      { title: "Future Fun AI — Simulate Your Financial Future" },
       { name: "description", content: "Agentic AI fintech dashboard that simulates scenarios, stress-tests life shocks, and recommends the optimal path to your goals." },
     ],
   }),
@@ -37,7 +37,7 @@ function Index() {
         <WhatIfSimulator inputs={inputs} />
         <FutureShock inputs={inputs} />
         <footer className="text-center text-xs text-muted-foreground pt-8">
-          FinSight Time Machine · Hackathon Demo · <span className="text-ai-gradient font-medium">Built with agentic AI</span>
+          Future Fun AI · Hackathon Demo · <span className="text-ai-gradient font-medium">Built with agentic AI</span>
         </footer>
       </div>
     </main>
