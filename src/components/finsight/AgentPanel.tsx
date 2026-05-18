@@ -38,7 +38,7 @@ export function AgentPanel({ inputs }: { inputs: Inputs }) {
             <Brain className="h-4 w-4 text-primary-foreground" />
           </div>
           <div>
-            <h2 className="font-display text-lg font-semibold">Future Fun AI Agent</h2>
+            <h2 className="font-display text-lg font-semibold">FinSight Agent</h2>
             <div className="flex items-center gap-1.5 text-[11px] text-muted-foreground">
               <span className="ring-dot bg-[oklch(0.78_0.18_150)] animate-pulse" />
               live · reasoning
