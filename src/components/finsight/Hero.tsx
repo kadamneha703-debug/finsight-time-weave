@@ -15,7 +15,7 @@ export function Hero() {
           </span>
         </div>
         <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-semibold leading-[1.02] tracking-tight">
-          FinSight <span className="text-ai-gradient">Time Machine</span>
+          FutureFund <span className="text-ai-gradient">AI</span>
         </h1>
         <p className="mt-5 max-w-2xl text-base sm:text-lg text-muted-foreground">
           Travel through your financial future. Simulate scenarios, stress-test life shocks, and let an
